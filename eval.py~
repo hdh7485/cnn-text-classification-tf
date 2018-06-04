@@ -44,7 +44,7 @@ else:
 
 # Map data into vocabulary
 vocab_path = os.path.join(FLAGS.checkpoint_dir, "..", "vocab")
-vocab_path = "C:/Users/hdh74/cnn-text-classification-tf/runs/1528094512/vocab"
+vocab_path = "C:/Users/hdh74/cnn-text-classification-tf/runs/1528094515/vocab"
 vocab_processor = learn.preprocessing.VocabularyProcessor.restore(vocab_path)
 x_test = np.array(list(vocab_processor.transform(x_raw)))
 
